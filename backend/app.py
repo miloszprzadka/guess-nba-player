@@ -7,9 +7,9 @@ import os
 
 app = Flask(__name__)
 
-FRONTEND_URL = os.environ.get('FRONTEND_URL', 'http://localhost:3000')
-CORS(app, origins=[FRONTEND_URL])
+frontend_url = os.environ.get('FRONTEND_URL', 'http://localhost:3000')
 
+CORS(app, origins=[frontend_url], supports_credentials=True)
 
 
 def to_inches(player_height):
