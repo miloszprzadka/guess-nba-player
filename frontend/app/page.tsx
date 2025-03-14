@@ -11,7 +11,7 @@ export default function Home() {
     e.preventDefault();
     setMessage('');
 
-    const apiUrl = process.env.API || 'http://127.0.0.1:5000/';
+    const apiUrl = process.env.NEXT_PUBLIC_API || 'http://127.0.0.1:5000/';
     
     try {
       const res = await fetch(apiUrl, {
