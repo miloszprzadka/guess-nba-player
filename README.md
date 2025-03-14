@@ -1,3 +1,9 @@
+IMPORTANT INFO
+
+Your first guess may take some time to process because the entire server must be turned on.
+
+------------------------
+
 The game was inspired by Poeltl, the NBPA player guessing game (https://poeltl.nbpa.com/). Every day, one player is drawn from the NBA player's database, with data acquired from https://www.espn.com/ through web scraping. Your mission is to identify the player by guessing their full name until you find the correct one. 
 The colors indicate how close you are to today's player. For example, if today's player is 23 years old and you guess a player who is 30, you will get a grey color, which means you're not close. However, you'll also see an arrow "↓" to indicate that today's player is younger than 30. 
 If you guess a player who is 25, you'll get the same arrow, but the color will turn yellow, meaning you're very close to the correct age. The yellow color appears when the difference between the actual value and your guess is 3 or less. This feedback applies to numerical values such as age, 
